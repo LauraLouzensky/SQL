@@ -1,0 +1,22 @@
+~create a skincare store database
+
+CREATE TABLE skincare (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, skintype TEXT, step INTEGER);
+
+INSERT INTO skincare values (1, "Foaming Cleanser", 24.99, "normal", 1);
+INSERT INTO skincare values(2, "Creamy Cleanser", 24.99, "dry", 1);
+INSERT INTO skincare values(3, "Gel Cleanser", 24.99, "oily", 1);
+INSERT INTO skincare values(4, "Oil Cleanser", 24.99, "all", 1);
+INSERT INTO skincare values(5, "Hydrating Mist", 28.99, "dry", 2);
+INSERT INTO skincare values(6, "Brightening Mist", 28.99, "normal", 2);
+INSERT INTO skincare values(7, "Clarifying Mist", 28.99, "oily", 2);
+INSERT INTO skincare values(8, "Vitamin C Serum", 56.99, "normal", 3);
+INSERT INTO skincare values(9, "Hydrating Serum", 45.99, "dry", 3);
+INSERT INTO skincare values(10, "Clarifying Serum", 35.99, "oily", 3);
+INSERT INTO skincare values(11, "Nourishing Cream", 65.99, "dry", 4);
+INSERT INTO skincare values(12, "Vitamin Veil Hydration", 65.99, "normal", 4);
+INSERT INTO skincare values(13, "Cloud Moisture", 68.99, "oily", 4);
+INSERT INTO skincare values(14, "Daytime SPF", 35.99, "all", 4);
+INSERT INTO skincare values(15, "Spot Treatment", 17.99, "all", 3);
+
+SELECT * FROM skincare
+ORDER by step
